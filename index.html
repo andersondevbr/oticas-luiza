@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Óticas Luiza | Exame de vista e óculos em Camocim-CE</title>
+<meta name="description" content="Óticas Luiza em Camocim-CE: exame de vista às sextas, armações selecionadas, lentes visão simples, progressivas, bifocais e Poly. Rua Paissandú, 2026. Agende pelo WhatsApp.">
+<meta name="theme-color" content="#141210">
+<meta property="og:title" content="Óticas Luiza — Um olhar que cuida">
+<meta property="og:description" content="Exame de vista às sextas e óculos completos em Camocim-CE. Rua Paissandú, 2026.">
+<meta property="og:image" content="atendente.jpg">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --lar:#ff8f0f; --lar-esc:#e07400; --lar-cl:#fff3e4; --ouro:#e9c9a0;
+  --noite:#141210; --noite2:#1d1a16; --noite3:#2a2520;
+  --tinta:#1b1815; --cinza:#6a625a; --linha:#ece5dc; --creme:#fbf8f4;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:'Manrope',system-ui,sans-serif;background:var(--creme);color:var(--tinta);line-height:1.6;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer}
+h1,h2,h3,.pop{font-family:'Poppins','Manrope',system-ui,sans-serif;line-height:1.1;letter-spacing:-.02em}
+.wrap{width:min(1160px,100% - 32px);margin-inline:auto}
+main{overflow-x:clip}
+section{position:relative}
+.sec{padding:90px 0}
+.kicker{font-size:.76rem;font-weight:700;letter-spacing:.32em;text-transform:uppercase;color:var(--lar-esc)}
+.titulo{font-size:clamp(1.95rem,4.8vw,3.1rem);font-weight:700;margin:.45em 0 .4em}
+.titulo span{color:var(--lar)}
+.lead{color:var(--cinza);font-size:1.07rem;max-width:56ch}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;font-weight:700;padding:1em 1.55em;border-radius:999px;font-size:1rem;line-height:1.2;border:0;transition:transform .2s,background .2s,box-shadow .2s}
+.btn svg{width:1.2em;height:1.2em;flex:none}
+.btn-lar{background:var(--lar);color:#1b1206;box-shadow:0 12px 30px -12px rgba(255,143,15,.7)}
+.btn-lar:hover{background:#ffa23a;transform:translateY(-2px)}
+.btn-fio{color:#fff;box-shadow:inset 0 0 0 1.5px rgba(255,255,255,.28)}
+.btn-fio:hover{box-shadow:inset 0 0 0 1.5px var(--lar);color:var(--lar)}
+.btn-fio-esc{color:var(--tinta);box-shadow:inset 0 0 0 1.5px var(--linha);background:#fff}
+.btn-fio-esc:hover{box-shadow:inset 0 0 0 1.5px var(--tinta)}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(20,18,16,.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid rgba(255,255,255,.06)}
+.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.nav .logo img{height:46px;width:auto}
+.menu{display:flex;align-items:center;gap:30px;color:#d9d1c7;font-weight:600;font-size:.95rem}
+.menu a:not(.btn):hover{color:var(--lar)}
+.menu .btn{padding:.72em 1.2em;font-size:.92rem}
+.hamb{display:none;width:46px;height:46px;border-radius:50%;border:1px solid rgba(255,255,255,.15);background:none;place-items:center}
+.hamb i,.hamb i::before,.hamb i::after{display:block;width:18px;height:2px;background:#fff;border-radius:2px;position:relative;transition:.25s}
+.hamb i::before,.hamb i::after{content:"";position:absolute;left:0}
+.hamb i::before{top:-6px}.hamb i::after{top:6px}
+.aberto .hamb i{background:transparent}
+.aberto .hamb i::before{top:0;transform:rotate(45deg)}
+.aberto .hamb i::after{top:0;transform:rotate(-45deg)}
+
+/* hero */
+.hero{background:var(--noite);color:#fff;padding:64px 0 96px;overflow:hidden}
+.arcos{position:absolute;inset:0;pointer-events:none;opacity:.85}
+.arcos svg{position:absolute;left:50%;top:50%;width:1900px;height:auto;transform:translate(-50%,-50%)}
+.arcos path{fill:none;stroke:var(--lar);stroke-linecap:round;stroke-dasharray:2400;stroke-dashoffset:2400;animation:traca 2.4s cubic-bezier(.6,0,.2,1) forwards}
+.arcos path:nth-child(2){animation-delay:.15s}.arcos path:nth-child(3){animation-delay:.3s}
+.arcos path:nth-child(4){animation-delay:.1s}.arcos path:nth-child(5){animation-delay:.25s}.arcos path:nth-child(6){animation-delay:.4s}
+@keyframes traca{to{stroke-dashoffset:0}}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:50px;align-items:center}
+.hero .kicker{color:var(--ouro)}
+.hero h1{font-size:clamp(2.7rem,7vw,5.2rem);font-weight:800;margin:.3em 0 .25em}
+.hero h1 span{color:var(--lar)}
+.hero .lead{color:#c9c0b6;font-size:1.13rem}
+.hero .ctas{display:flex;gap:12px;flex-wrap:wrap;margin-top:32px}
+.sexta{margin-top:34px;display:inline-flex;align-items:center;gap:14px;background:var(--noite2);border:1px solid rgba(255,143,15,.25);border-radius:18px;padding:12px 18px 12px 12px}
+.sexta .dia{width:52px;height:52px;border-radius:14px;background:var(--lar);color:#1b1206;display:grid;place-items:center;text-align:center;font-family:'Poppins',sans-serif;line-height:1}
+.sexta .dia b{font-size:1.35rem;display:block}
+.sexta .dia small{font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em}
+.sexta p{font-size:.92rem;color:#c9c0b6;line-height:1.35}
+.sexta p b{color:#fff;display:block;font-size:1rem}
+.olho{position:relative;aspect-ratio:1/1.06;max-width:470px;margin-left:auto;width:100%}
+.olho .foto{position:absolute;inset:6% 4%;border-radius:50% 4% 50% 4%;overflow:hidden;background:var(--noite3)}
+.olho .foto img{width:100%;height:100%;object-fit:cover;object-position:center 18%}
+.olho .anel{position:absolute;inset:0;border:2px solid var(--lar);border-radius:50% 4% 50% 4%;transform:rotate(0deg)}
+.olho .anel.b{inset:-14px;border-color:rgba(255,143,15,.35);border-width:1px}
+.olho .pupila{position:absolute;right:-10px;bottom:12%;width:96px;height:96px;border-radius:50%;background:var(--lar);display:grid;place-items:center;box-shadow:0 18px 40px -10px rgba(255,143,15,.6)}
+.olho .pupila i{width:40px;height:40px;border-radius:50%;background:var(--noite);position:relative;transition:transform .15s}
+.olho .pupila i::after{content:"";position:absolute;width:11px;height:11px;border-radius:50%;background:#fff;top:7px;right:8px}
+
+/* faixa oferta */
+.oferta{background:var(--lar);color:#1b1206}
+.oferta .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0;flex-wrap:wrap}
+.oferta .esq{display:flex;align-items:center;gap:18px}
+.oferta .mes{font-family:'Poppins',sans-serif;font-weight:800;font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;background:#1b1206;color:var(--lar);padding:.5em .9em;border-radius:999px;white-space:nowrap}
+.oferta p{font-weight:600;font-size:1.02rem;line-height:1.35}
+.oferta p b{font-family:'Poppins',sans-serif;font-weight:800}
+.oferta small{display:block;font-size:.8rem;opacity:.75;font-weight:600}
+.oferta .btn{background:#1b1206;color:#fff;padding:.8em 1.3em;font-size:.94rem}
+.oferta .btn:hover{background:#000}
+
+/* exame */
+.exame .wrap{display:grid;grid-template-columns:.9fr 1.1fr;gap:64px;align-items:center}
+.exame-foto{position:relative}
+.exame-foto img{border-radius:28px;width:100%;aspect-ratio:4/5;object-fit:cover;object-position:center 10%}
+.exame-foto .selo{position:absolute;left:-18px;bottom:28px;background:var(--noite);color:#fff;border-radius:20px;padding:16px 20px;box-shadow:0 20px 40px -18px rgba(0,0,0,.5)}
+.exame-foto .selo b{font-family:'Poppins',sans-serif;color:var(--lar);font-size:1.6rem;display:block;line-height:1}
+.exame-foto .selo span{font-size:.85rem;color:#c9c0b6}
+.vantagens{display:grid;gap:14px;margin:28px 0 30px}
+.vant{display:grid;grid-template-columns:48px 1fr;gap:16px;align-items:start;padding:18px;border-radius:18px;background:#fff;border:1px solid var(--linha)}
+.vant .ic{width:48px;height:48px;border-radius:14px;background:var(--lar-cl);display:grid;place-items:center}
+.vant .ic svg{width:24px;height:24px;fill:none;stroke:var(--lar-esc);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.vant b{display:block;font-size:1.05rem;margin-bottom:2px}
+.vant p{color:var(--cinza);font-size:.95rem}
+.proxima{font-size:.92rem;color:var(--cinza);margin-top:14px}
+.proxima b{color:var(--tinta)}
+
+/* lentes */
+.lentes{background:var(--noite);color:#fff}
+.lentes .kicker{color:var(--ouro)}
+.lentes .lead{color:#b9b0a6}
+.lentes-topo{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end}
+.lentes-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.08);border-radius:24px;overflow:hidden;margin-top:46px}
+.lente{background:var(--noite);padding:30px 26px;transition:background .25s}
+.lente:hover{background:var(--noite2)}
+.lente .n{font-family:'Poppins',sans-serif;color:var(--lar);font-weight:700;font-size:.85rem;letter-spacing:.1em}
+.lente svg{width:64px;height:40px;margin:16px 0 14px;fill:none;stroke:#fff;stroke-width:2;stroke-linecap:round}
+.lente h3{font-size:1.25rem;margin-bottom:6px}
+.lente p{color:#b0a79d;font-size:.95rem}
+.lente.destaque{background:linear-gradient(160deg,#2a1c0c,var(--noite) 70%)}
+.pagamento{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:28px;color:#b9b0a6;font-size:.92rem}
+.pagamento span{border:1px solid rgba(255,255,255,.14);color:#fff;border-radius:999px;padding:.35em .9em;font-weight:600;font-size:.86rem}
+
+/* sinais */
+.sinais .wrap{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:center}
+.sinais-lista{display:grid;gap:10px;margin-top:26px}
+.sinal{display:flex;align-items:center;gap:16px;padding:16px 18px;border-radius:16px;background:#fff;border:1px solid var(--linha)}
+.sinal .num{font-family:'Poppins',sans-serif;font-weight:800;color:var(--lar);font-size:1.3rem;width:34px}
+.sinal b{display:block}
+.sinal span{color:var(--cinza);font-size:.92rem}
+.sinais-foto{position:relative;border-radius:30px;overflow:hidden;aspect-ratio:4/5}
+.sinais-foto img{width:100%;height:100%;object-fit:cover}
+.sinais-foto figcaption{position:absolute;left:18px;right:18px;bottom:18px;background:rgba(20,18,16,.82);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);color:#fff;border-radius:18px;padding:16px 18px;font-size:.95rem}
+.sinais-foto figcaption b{color:var(--lar)}
+
+/* cuidados */
+.cuidados{background:#fff}
+.cuid-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:42px}
+.cuid{perspective:900px;background:none;border:0;padding:0;text-align:left;min-height:230px}
+.cuid .in{position:relative;width:100%;height:100%;min-height:230px;transition:transform .6s cubic-bezier(.4,.2,.2,1);transform-style:preserve-3d}
+.cuid.virado .in{transform:rotateY(180deg)}
+.cuid .face{position:absolute;inset:0;border-radius:22px;padding:24px;display:flex;flex-direction:column;-webkit-backface-visibility:hidden;backface-visibility:hidden}
+.cuid .frente{background:var(--creme);border:1px solid var(--linha)}
+.cuid .verso{background:var(--noite);color:#fff;transform:rotateY(180deg)}
+.cuid .tag{font-size:.72rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}
+.cuid .frente .tag{color:#c0392b}
+.cuid .verso .tag{color:var(--lar)}
+.cuid h3{font-size:1.2rem;margin:12px 0 8px}
+.cuid p{font-size:.93rem;color:var(--cinza)}
+.cuid .verso p{color:#c9c0b6}
+.cuid .toque{margin-top:auto;font-size:.82rem;font-weight:700;color:var(--lar-esc);display:flex;align-items:center;gap:6px}
+.cuid .verso .toque{color:var(--ouro)}
+
+/* equipe */
+.equipe-grid{display:grid;grid-template-columns:1.1fr .9fr .9fr;gap:18px;margin-top:44px;align-items:stretch}
+.membro{border-radius:26px;overflow:hidden;position:relative;min-height:440px;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;isolation:isolate}
+.membro img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.membro::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,transparent 45%,rgba(16,12,8,.88))}
+.membro h3{font-size:1.35rem}
+.membro p{font-size:.92rem;color:#e6ddd2}
+.membro .cargo{display:inline-block;align-self:flex-start;margin-bottom:8px;background:var(--lar);color:#1b1206;font-weight:800;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;padding:.35em .8em;border-radius:999px}
+
+/* visite */
+.visite{background:var(--noite);color:#fff;overflow:hidden}
+.visite .kicker{color:var(--ouro)}
+.visite .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start;position:relative}
+.dados{display:grid;gap:4px;margin:26px 0 28px}
+.dado{display:flex;gap:16px;align-items:center;padding:15px 0;border-bottom:1px solid rgba(255,255,255,.08)}
+.dado .ic{width:46px;height:46px;border-radius:50%;background:var(--noite3);display:grid;place-items:center;flex:none}
+.dado .ic svg{width:21px;height:21px;fill:none;stroke:var(--lar);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.dado small{display:block;color:#9e958b;font-size:.82rem}
+.dado b{font-weight:600;font-size:1.03rem}
+.horario{background:var(--noite2);border:1px solid rgba(255,255,255,.07);border-radius:24px;padding:24px}
+.horario-topo{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;gap:10px;flex-wrap:wrap}
+.horario h3{font-size:1.2rem}
+.status{font-size:.82rem;font-weight:700;padding:.35em .85em;border-radius:999px;background:var(--noite3);color:#c9c0b6;display:inline-flex;align-items:center;gap:7px}
+.status i{width:8px;height:8px;border-radius:50%;background:#888}
+.status.on{background:rgba(76,217,100,.12);color:#7be38f}.status.on i{background:#4cd964}
+.status.off i{background:#ff7a59}
+.horario table{width:100%;border-collapse:collapse;font-size:.95rem}
+.horario td{padding:9px 0;border-bottom:1px dashed rgba(255,255,255,.09);color:#c9c0b6}
+.horario td:last-child{text-align:right;color:#fff;font-weight:600}
+.horario tr:last-child td{border:0}
+.horario tr.hoje td{color:var(--lar)}
+.horario tr.hoje td:last-child{color:var(--lar)}
+.horario .obs{margin-top:14px;font-size:.85rem;color:#9e958b;display:flex;gap:8px;align-items:center}
+.horario .obs b{color:var(--lar)}
+.mapa{margin-top:18px;border-radius:24px;overflow:hidden;background:var(--noite3);border:1px solid rgba(255,255,255,.07)}
+.mapa iframe{width:100%;height:280px;border:0;display:block}
+
+footer{background:#0d0c0a;color:#8f867c;padding:36px 0 100px;font-size:.88rem}
+footer .wrap{display:flex;justify-content:space-between;align-items:center;gap:18px;flex-wrap:wrap}
+footer img{height:40px;width:auto}
+footer a:hover{color:var(--lar)}
+.cred{width:100%;text-align:center;border-top:1px solid rgba(255,255,255,.06);padding-top:16px;font-size:.8rem}
+
+.zap{position:fixed;right:16px;bottom:16px;z-index:60;display:flex;align-items:center;gap:10px;background:#1faa53;color:#fff;font-weight:700;padding:12px 18px 12px 14px;border-radius:999px;box-shadow:0 14px 30px -10px rgba(0,0,0,.5);transition:transform .2s}
+.zap:hover{transform:translateY(-3px)}
+.zap svg{width:26px;height:26px;fill:#fff}
+
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.rv.vis{opacity:1;transform:none}
+
+@media (max-width:1020px){
+  .lentes-grid{grid-template-columns:repeat(2,1fr)}
+  .cuid-grid{grid-template-columns:repeat(2,1fr)}
+  .equipe-grid{grid-template-columns:1fr 1fr}
+  .equipe-grid .membro:first-child{grid-column:span 2;min-height:400px}
+}
+@media (max-width:860px){
+  .menu{position:fixed;top:76px;left:0;right:0;background:var(--noite);flex-direction:column;align-items:stretch;gap:0;padding:8px 16px 22px;border-bottom:1px solid rgba(255,255,255,.08);transform:translateY(-120%);transition:transform .3s;z-index:-1}
+  .menu a:not(.btn){padding:15px 4px;border-bottom:1px solid rgba(255,255,255,.07);font-size:1.05rem}
+  .menu .btn{margin-top:16px;padding:1em}
+  .aberto .menu{transform:none}
+  .hamb{display:grid}
+  .nav .logo img{height:40px}
+  .hero{padding:40px 0 70px}
+  .arcos{top:auto;height:520px;bottom:0}
+  .arcos svg{width:1100px}
+  .hero .wrap,.exame .wrap,.sinais .wrap,.visite .wrap,.lentes-topo{grid-template-columns:1fr;gap:40px}
+  .olho{margin-inline:auto;max-width:380px}
+  .exame-foto{max-width:440px;margin-inline:auto;width:100%}
+  .sinais-foto{max-width:440px;margin-inline:auto;width:100%;order:-1}
+  .sec{padding:68px 0}
+}
+@media (max-width:560px){
+  .hero h1{font-size:2.85rem}
+  .hero .ctas .btn{flex:1 1 100%}
+  .sexta{width:100%}
+  .olho{max-width:320px}
+  .olho .pupila{width:76px;height:76px;right:-4px}
+  .olho .pupila i{width:32px;height:32px}
+  .oferta .esq{flex-direction:column;align-items:flex-start;gap:10px}
+  .oferta .btn{width:100%}
+  .lentes-grid{grid-template-columns:1fr}
+  .lente{padding:24px 20px}
+  .cuid-grid{grid-template-columns:1fr 1fr;gap:10px}
+  .cuid,.cuid .in{min-height:250px}
+  .cuid .face{padding:16px}
+  .cuid h3{font-size:1.02rem}
+  .cuid p{font-size:.85rem}
+  .equipe-grid{grid-template-columns:1fr}
+  .equipe-grid .membro:first-child{grid-column:auto}
+  .membro{min-height:400px}
+  .exame-foto .selo{left:-6px}
+  .zap span{display:none}
+  .zap{padding:14px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none !important;transition:none !important}
+  .arcos path{stroke-dashoffset:0}
+  .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="zap" viewBox="0 0 32 32"><path d="M16.04 3C8.86 3 3.03 8.82 3.03 16c0 2.3.6 4.53 1.74 6.5L3 29l6.68-1.75A12.95 12.95 0 0 0 16.04 29C23.2 29 29 23.18 29 16S23.2 3 16.04 3zm0 23.6c-1.98 0-3.92-.53-5.6-1.54l-.4-.24-3.97 1.04 1.06-3.86-.26-.4A10.56 10.56 0 0 1 5.4 16c0-5.86 4.77-10.62 10.64-10.62 5.86 0 10.6 4.76 10.6 10.62 0 5.86-4.75 10.6-10.6 10.6zm5.82-7.95c-.32-.16-1.88-.93-2.17-1.03-.3-.11-.5-.16-.72.16-.21.32-.82 1.03-1 1.24-.19.21-.37.24-.69.08-.32-.16-1.34-.5-2.56-1.58-.94-.84-1.58-1.88-1.77-2.2-.18-.32-.02-.49.14-.65.15-.14.32-.37.48-.56.16-.18.21-.32.32-.53.1-.21.05-.4-.03-.56-.08-.16-.71-1.72-.98-2.35-.26-.62-.52-.53-.72-.54h-.61c-.21 0-.56.08-.85.4-.3.32-1.12 1.09-1.12 2.66 0 1.57 1.14 3.08 1.3 3.3.16.2 2.25 3.43 5.44 4.81.76.33 1.35.52 1.81.67.76.24 1.46.2 2.01.12.61-.09 1.88-.77 2.15-1.51.26-.74.26-1.38.18-1.51-.08-.13-.29-.21-.61-.37z"/></symbol>
+</svg>
+
+<header id="topo">
+  <div class="wrap nav">
+    <a href="#inicio" class="logo" aria-label="Óticas Luiza — início"><img src="logo-header.png" alt="Óticas Luiza" width="440" height="90"></a>
+    <nav class="menu" id="menu">
+      <a href="#exame">Exame de vista</a>
+      <a href="#lentes">Lentes</a>
+      <a href="#cuidados">Cuidados</a>
+      <a href="#visite">Horários</a>
+      <a class="btn btn-lar" href="https://wa.me/5588993027668?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20consulta" target="_blank" rel="noopener"><svg><use href="#zap" fill="currentColor"/></svg>Agendar</a>
+    </nav>
+    <button class="hamb" id="hamb" aria-label="Abrir menu" aria-expanded="false"><i></i></button>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="inicio">
+  <div class="arcos" aria-hidden="true">
+    <svg viewBox="0 0 1900 900" preserveAspectRatio="xMidYMid meet">
+      <path d="M-50 330 Q950 -40 1950 330" stroke-width="10"/>
+      <path d="M-50 365 Q950 20 1950 365" stroke-width="5" opacity=".55"/>
+      <path d="M-50 395 Q950 75 1950 395" stroke-width="2" opacity=".3"/>
+      <path d="M-50 570 Q950 940 1950 570" stroke-width="10"/>
+      <path d="M-50 535 Q950 880 1950 535" stroke-width="5" opacity=".55"/>
+      <path d="M-50 505 Q950 825 1950 505" stroke-width="2" opacity=".3"/>
+    </svg>
+  </div>
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Óticas Luiza · Camocim</span>
+      <h1>Um olhar<br>que <span>cuida.</span></h1>
+      <p class="lead">Exame de vista, armações escolhidas a dedo e lentes feitas para o seu grau — tudo na Rua Paissandú, 2026, com quem conhece você pelo nome.</p>
+      <div class="ctas">
+        <a class="btn btn-lar" href="https://wa.me/5588993027668?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20consulta" target="_blank" rel="noopener"><svg><use href="#zap" fill="currentColor"/></svg>Agendar exame de vista</a>
+        <a class="btn btn-fio" href="#visite">Ver horários</a>
+      </div>
+      <div class="sexta">
+        <div class="dia" id="sexta-dia"><b>—</b><small>sex</small></div>
+        <p><b>Exames de vista às sextas</b><span id="sexta-txt">Agende o seu horário pelo WhatsApp</span></p>
+      </div>
+    </div>
+    <div class="olho rv" aria-hidden="true">
+      <div class="anel b"></div>
+      <div class="foto"><img src="atendente.jpg" alt=""></div>
+      <div class="anel"></div>
+      <div class="pupila" id="pupila"><i></i></div>
+    </div>
+  </div>
+</section>
+
+<div class="oferta" id="oferta">
+  <div class="wrap">
+    <div class="esq">
+      <span class="mes">Outubro</span>
+      <p>Óculos completo <b>a partir de R$ 250</b> e quem fizer seus óculos no mês concorre a um <b>Pix de R$ 300</b>.<small>Consulte as condições para cada tipo de lente.</small></p>
+    </div>
+    <a class="btn" href="https://wa.me/5588993027668?text=Ol%C3%A1!%20Quero%20saber%20da%20promo%C3%A7%C3%A3o%20de%20outubro." target="_blank" rel="noopener">Quero saber mais</a>
+  </div>
+</div>
+
+<!-- EXAME -->
+<section class="sec exame" id="exame">
+  <div class="wrap">
+    <figure class="exame-foto rv">
+      <img src="tabela.jpg" alt="Sala de exame da Óticas Luiza com tabela de acuidade visual" loading="lazy">
+      <div class="selo"><b>Toda sexta</b><span>tem exame de vista na loja</span></div>
+    </figure>
+    <div class="rv">
+      <span class="kicker">Exame de vista</span>
+      <h2 class="titulo">Antes do óculos, <span>o cuidado</span> com o seu olho</h2>
+      <p class="lead">Mesmo enxergando bem, o grau pode mudar aos poucos. Por isso a sexta-feira aqui é reservada para examinar a sua visão com calma.</p>
+      <div class="vantagens">
+        <div class="vant"><span class="ic"><svg viewBox="0 0 24 24"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/></svg></span><div><b>Consulta gratuita na compra do óculos</b><p>Comprando seus óculos na Óticas Luiza, a consulta sai sem custo.</p></div></div>
+        <div class="vant"><span class="ic"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span><div><b>Cartinha premiada depois da consulta</b><p>Você tira uma cartinha e pode ganhar descontos, brindes e outras surpresas.</p></div></div>
+      </div>
+      <a class="btn btn-lar" href="https://wa.me/5588993027668?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20exame%20de%20vista%20na%20sexta." target="_blank" rel="noopener"><svg><use href="#zap" fill="currentColor"/></svg>Reservar meu horário</a>
+      <p class="proxima" id="proxima"></p>
+    </div>
+  </div>
+</section>
+
+<!-- LENTES -->
+<section class="sec lentes" id="lentes">
+  <div class="wrap">
+    <div class="lentes-topo rv">
+      <div>
+        <span class="kicker">Lentes</span>
+        <h2 class="titulo">A lente certa para <span>o seu grau</span></h2>
+      </div>
+      <p class="lead">Da visão simples à progressiva, a gente explica cada opção e monta o seu óculos completo — armação e lente — do jeito que a sua rotina pede.</p>
+    </div>
+    <div class="lentes-grid">
+      <article class="lente rv"><span class="n">01</span><svg viewBox="0 0 64 40"><ellipse cx="32" cy="20" rx="26" ry="16"/></svg><h3>Visão simples</h3><p>Para longe ou para perto. A lente mais comum, com opção incolor para o dia a dia.</p></article>
+      <article class="lente rv"><span class="n">02</span><svg viewBox="0 0 64 40"><ellipse cx="32" cy="20" rx="26" ry="16"/><path d="M8 16h48M10 25h44" opacity=".5"/></svg><h3>Progressiva</h3><p>Longe, intermediário e perto na mesma lente, sem aquela linha aparente.</p></article>
+      <article class="lente rv"><span class="n">03</span><svg viewBox="0 0 64 40"><ellipse cx="32" cy="20" rx="26" ry="16"/><path d="M20 28a12 7 0 0 1 24 0"/></svg><h3>Bifocal</h3><p>Dois campos de visão bem definidos — um para longe, outro para leitura.</p></article>
+      <article class="lente rv"><span class="n">04</span><svg viewBox="0 0 64 40"><ellipse cx="32" cy="20" rx="26" ry="16"/><ellipse cx="32" cy="20" rx="18" ry="10" opacity=".5"/></svg><h3>Poly</h3><p>Mais leve e resistente a impacto. Boa escolha para crianças e para quem é “desastrado”.</p></article>
+      <article class="lente rv"><span class="n">05</span><svg viewBox="0 0 64 40"><ellipse cx="32" cy="20" rx="26" ry="16"/><ellipse cx="32" cy="20" rx="18" ry="10" opacity=".5"/><path d="M10 25h44" opacity=".5"/></svg><h3>Poly progressiva</h3><p>A leveza e a resistência do Poly com os campos de visão da progressiva.</p></article>
+      <article class="lente destaque rv"><span class="n">2 EM 1</span><svg viewBox="0 0 64 40"><ellipse cx="32" cy="20" rx="26" ry="16"/><ellipse cx="32" cy="20" rx="26" ry="16" fill="#ff8f0f" opacity=".35" stroke="none" transform="translate(4 -3)"/></svg><h3>Clip-on de sol</h3><p>Use a armação no dia a dia e, quando bater sol, encaixe a lente escura por cima.</p></article>
+    </div>
+    <div class="pagamento rv">Formas de pagamento: <span>Dinheiro</span><span>Pix</span><span>Débito</span><span>Crédito parcelado</span></div>
+  </div>
+</section>
+
+<!-- SINAIS -->
+<section class="sec sinais">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Seu óculos ainda dá conta?</span>
+      <h2 class="titulo">Sinais de que está na hora de <span>revisar a visão</span></h2>
+      <p class="lead">O corpo avisa. Se algum desses aparece com frequência, vale marcar um exame:</p>
+      <div class="sinais-lista">
+        <div class="sinal"><span class="num">01</span><div><b>Dor de cabeça</b><span>Principalmente no fim do dia ou depois de ler</span></div></div>
+        <div class="sinal"><span class="num">02</span><div><b>Cansaço para ler</b><span>As letras “embolam” e a vista pesa</span></div></div>
+        <div class="sinal"><span class="num">03</span><div><b>Apertar os olhos</b><span>Para ler placas, a TV ou a tela do celular</span></div></div>
+        <div class="sinal"><span class="num">04</span><div><b>Dificuldade na escola</b><span>Nas crianças, a visão pode estar por trás do aprendizado</span></div></div>
+      </div>
+    </div>
+    <figure class="sinais-foto rv">
+      <img src="perfil.jpg" alt="Cliente usando armação transparente rosé" loading="lazy">
+      <figcaption>“Você só percebe o quanto estava perdendo <b>quando volta a enxergar com clareza</b>.”</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- CUIDADOS -->
+<section class="sec cuidados" id="cuidados">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Cuidados</span>
+      <h2 class="titulo">4 hábitos que <span>encurtam a vida</span> do seu óculos</h2>
+      <p class="lead">Toque em cada cartão para ver o jeito certo.</p>
+    </div>
+    <div class="cuid-grid">
+      <button class="cuid rv" aria-pressed="false"><div class="in">
+        <div class="face frente"><span class="tag">Evite</span><h3>Limpar na camisa</h3><p>O tecido arrasta poeira e risca a lente aos poucos.</p><span class="toque">Ver o certo ↻</span></div>
+        <div class="face verso"><span class="tag">Faça assim</span><h3>Água, sabão neutro e flanela</h3><p>Enxágue, lave com os dedos e seque com a flanela limpa.</p><span class="toque">↻ Voltar</span></div>
+      </div></button>
+      <button class="cuid rv" aria-pressed="false"><div class="in">
+        <div class="face frente"><span class="tag">Evite</span><h3>Guardar sem estojo</h3><p>Bolsa e bolso são cheios de chaves, moedas e pressão.</p><span class="toque">Ver o certo ↻</span></div>
+        <div class="face verso"><span class="tag">Faça assim</span><h3>Sempre no estojo</h3><p>Tirou do rosto, foi para o estojo. Simples assim.</p><span class="toque">↻ Voltar</span></div>
+      </div></button>
+      <button class="cuid rv" aria-pressed="false"><div class="in">
+        <div class="face frente"><span class="tag">Evite</span><h3>Apoiar com a lente para baixo</h3><p>A lente encosta na mesa e ganha arranhões.</p><span class="toque">Ver o certo ↻</span></div>
+        <div class="face verso"><span class="tag">Faça assim</span><h3>Hastes para baixo</h3><p>Apoie o óculos sobre as hastes, com as lentes para cima.</p><span class="toque">↻ Voltar</span></div>
+      </div></button>
+      <button class="cuid rv" aria-pressed="false"><div class="in">
+        <div class="face frente"><span class="tag">Evite</span><h3>Deixar no painel do carro</h3><p>O calor deforma a armação e danifica o tratamento da lente.</p><span class="toque">Ver o certo ↻</span></div>
+        <div class="face verso"><span class="tag">Faça assim</span><h3>Longe do sol direto</h3><p>Leve com você ou guarde no estojo dentro do porta-luvas.</p><span class="toque">↻ Voltar</span></div>
+      </div></button>
+    </div>
+  </div>
+</section>
+
+<!-- EQUIPE -->
+<section class="sec" id="equipe">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Quem atende você</span>
+      <h2 class="titulo">Gente que <span>cuida de cada olhar</span></h2>
+      <p class="lead">Estilo vai além de escolher um modelo: é achar o óculos que combina com o seu rosto e o seu jeito. A gente ajuda nisso, sem pressa.</p>
+    </div>
+    <div class="equipe-grid">
+      <div class="membro rv"><img src="maos.jpg" alt="Atendente mostrando armação na loja" loading="lazy" style="object-position:center 30%"><span class="cargo">Armações</span><h3>Variedade também é estilo</h3><p>Modelos de metal, acetato, transparentes e coloridos para experimentar à vontade.</p></div>
+      <div class="membro rv"><img src="mauro.jpg" alt="Mauro Luís, optometrista da Óticas Luiza" loading="lazy" style="object-position:center 20%"><span class="cargo">Optometrista</span><h3>Mauro Luís</h3><p>Atenção, carinho e precisão em cada atendimento.</p></div>
+      <div class="membro rv"><img src="armacao.jpg" alt="Armação redonda tartaruga" loading="lazy"><span class="cargo">Novidades</span><h3>Chegou na loja</h3><p>As novidades aparecem primeiro no nosso Instagram.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- VISITE -->
+<section class="sec visite" id="visite">
+  <div class="wrap">
+    <div class="rv">
+      <span class="kicker">Venha nos visitar</span>
+      <h2 class="titulo">Rua Paissandú, <span>2026</span></h2>
+      <div class="dados">
+        <div class="dado"><span class="ic"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 0 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><small>Endereço</small><b>Rua Paissandú, 2026 — Camocim-CE</b></div></div>
+        <a class="dado" href="https://wa.me/5588993027668?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20consulta" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg></span><div><small>WhatsApp · consultas</small><b>(88) 99302-7668</b></div></a>
+        <a class="dado" href="https://wa.me/5588993047775" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg></span><div><small>WhatsApp · loja</small><b>(88) 99304-7775</b></div></a>
+        <a class="dado" href="https://www.instagram.com/oticasluizacamocim_/" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg></span><div><small>Instagram</small><b>@oticasluizacamocim_</b></div></a>
+      </div>
+      <div class="ctas" style="display:flex;gap:12px;flex-wrap:wrap">
+        <a class="btn btn-lar" href="https://www.google.com/maps/search/?api=1&query=Rua+Paissand%C3%BA+2026+Camocim+CE" target="_blank" rel="noopener">Abrir no mapa</a>
+        <a class="btn btn-fio" href="https://wa.me/5588993027668?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20consulta" target="_blank" rel="noopener">Agendar exame</a>
+      </div>
+    </div>
+    <div class="rv">
+      <div class="horario">
+        <div class="horario-topo"><h3>Horário de atendimento</h3><span class="status" id="status"><i></i><span>—</span></span></div>
+        <table id="tab-hor">
+          <tr data-d="1"><td>Segunda</td><td>08h–12h · 14h–18h</td></tr>
+          <tr data-d="2"><td>Terça</td><td>08h–12h · 14h–18h</td></tr>
+          <tr data-d="3"><td>Quarta</td><td>08h–12h · 14h–18h</td></tr>
+          <tr data-d="4"><td>Quinta</td><td>08h–12h · 14h–18h</td></tr>
+          <tr data-d="5"><td>Sexta</td><td>08h–12h · 14h–18h</td></tr>
+          <tr data-d="6"><td>Sábado</td><td>08h–12h</td></tr>
+          <tr data-d="0"><td>Domingo</td><td>Fechado</td></tr>
+        </table>
+        <p class="obs"><b>●</b> Sexta-feira é dia de exame de vista</p>
+      </div>
+      <div class="mapa"><iframe title="Mapa da Óticas Luiza em Camocim" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Rua+Paissand%C3%BA,+2026,+Camocim+-+CE&output=embed"></iframe></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="#inicio"><img src="logo-header.png" alt="Óticas Luiza" width="440" height="90"></a>
+    <p>Rua Paissandú, 2026 · Camocim-CE</p>
+    <p class="cred">© <span id="ano">2026</span> Óticas Luiza · Site desenvolvido por <a href="https://www.instagram.com/anderson.fsfs/" target="_blank" rel="noopener"><b>AndersonDev</b></a></p>
+  </div>
+</footer>
+
+<a class="zap" href="https://wa.me/5588993027668?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20uma%20consulta" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp"><svg viewBox="0 0 32 32"><use href="#zap"/></svg><span>Agendar consulta</span></a>
+
+<script>
+(function(){
+  var topo=document.getElementById('topo'),h=document.getElementById('hamb');
+  h.onclick=function(){var a=topo.classList.toggle('aberto');h.setAttribute('aria-expanded',a)};
+  document.querySelectorAll('#menu a').forEach(function(a){a.addEventListener('click',function(){topo.classList.remove('aberto');h.setAttribute('aria-expanded',false)})});
+
+  // hora de Camocim (UTC-3)
+  var agora=new Date(Date.now()+(new Date().getTimezoneOffset()-180)*60000);
+  var d=agora.getDay(),m=agora.getHours()*60+agora.getMinutes();
+  document.getElementById('ano').textContent=agora.getFullYear();
+  var meses=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+
+  // oferta só aparece em outubro de 2026
+  if(!(agora.getFullYear()===2026&&agora.getMonth()===9)){var of=document.getElementById('oferta');if(of)of.remove();}
+
+  // próxima sexta
+  var add=(5-d+7)%7; if(add===0&&m>=1080)add=7;
+  var sx=new Date(agora.getTime()+add*864e5);
+  document.querySelector('#sexta-dia b').textContent=sx.getDate();
+  document.getElementById('sexta-txt').textContent=add===0?'Hoje é dia de exame — chame no WhatsApp':'Próxima: '+sx.getDate()+' de '+meses[sx.getMonth()]+' · agende pelo WhatsApp';
+  document.getElementById('proxima').innerHTML='Próximo dia de exame: <b>sexta, '+sx.getDate()+' de '+meses[sx.getMonth()]+'</b>.';
+
+  // aberto agora
+  var faixas={0:[],6:[[480,720]]};var f=faixas[d]||[[480,720],[840,1080]];
+  var ab=f.filter(function(x){return m>=x[0]&&m<x[1]})[0];
+  var st=document.getElementById('status');
+  st.classList.add(ab?'on':'off');
+  st.querySelector('span').textContent=ab?'Aberto agora · até '+Math.floor(ab[1]/60)+'h':'Fechado agora';
+  var tr=document.querySelector('#tab-hor tr[data-d="'+d+'"]');if(tr)tr.classList.add('hoje');
+
+  // cartões de cuidado
+  document.querySelectorAll('.cuid').forEach(function(c){c.addEventListener('click',function(){var v=c.classList.toggle('virado');c.setAttribute('aria-pressed',v)})});
+
+  // pupila segue o dedo/mouse
+  var p=document.querySelector('#pupila i');
+  if(p&&!matchMedia('(prefers-reduced-motion: reduce)').matches){
+    window.addEventListener('pointermove',function(e){var r=p.parentNode.getBoundingClientRect();var dx=e.clientX-(r.left+r.width/2),dy=e.clientY-(r.top+r.height/2);var a=Math.atan2(dy,dx),k=Math.min(14,Math.hypot(dx,dy)/30);p.style.transform='translate('+Math.cos(a)*k+'px,'+Math.sin(a)*k+'px)'},{passive:true});
+  }
+
+  var els=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('vis');io.unobserve(e.target)}})},{threshold:.1});els.forEach(function(e){io.observe(e)})}
+  else els.forEach(function(e){e.classList.add('vis')});
+})();
+</script>
+</body>
+</html>
